@@ -1,0 +1,138 @@
+:root {
+  --text-color: #303036;
+  --muted-text-color: #5e5e67;
+  --heading-color: #cd2807;
+  --link-color: #028090;
+  --background-color: #fffdf7;
+
+  --heading-font: "Oswald", sans-serif;
+  --body-font: "Source Sans 3", sans-serif;
+
+  --border-radius: 4px;
+}
+
+html {
+  font-family: var(--body-font);
+  font-size: 20px;
+  line-height: 1.45;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+main {
+  margin-inline: auto;
+  max-width: 65ch;
+}
+
+main * {
+  margin-block-start: 0;
+  margin-block-end: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin-inline: 0;
+}
+
+figure img {
+  display: block;
+  margin-inline: auto;
+  border-radius: var(--border-radius);
+}
+
+figcaption {
+  margin-block-start: 0.5rem;
+  font-size: 0.8rem;
+}
+
+h1 {
+  border-block-start: 10px solid var(--heading-color);
+  margin-block-start: 4rem;
+  margin-block-end: 2rem;
+  font-family: var(--heading-font);
+  font-weight: normal;
+}
+
+h2 {
+  margin-block-start: 1.5rem;
+  margin-block-end: 0.5rem;
+  font-family: var(--heading-font);
+  font-size: 1.2em;
+  font-weight: normal;
+  color: var(--heading-color);
+}
+
+a {
+  color: var(--link-color);
+  border-radius: var(--border-radius);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+abbr {
+  text-decoration-color: var(--heading-color);
+  text-decoration-thickness: 2px;
+}
+
+blockquote {
+  margin-inline: 1.5rem 0;
+  padding-inline: 1rem;
+  border-inline-start: 4px solid var(--heading-color);
+  font-size: 0.9rem;
+  color: var(--muted-text-color);
+}
+
+ul, ol {
+  padding-inline-start: 1.5rem;
+}
+
+li {
+  margin-block: 0 0.5rem;
+}
+
+li::marker {
+  color: var(--heading-color);
+}
+
+pre {
+  padding: 1rem;
+  background-color: #edebe7;
+  border-radius: var(--border-radius);
+  overflow-x: auto;
+}
+
+pre code {
+  margin: 0;
+  font-size: 0.75em;
+}
+
+footer {
+  margin-block-start: 3rem;
+  margin-inline: auto;
+  padding-block: 1.5rem 3rem;
+  border-block-start: 2px solid var(--heading-color);
+  max-width: 65ch;
+  color: var(--muted-text-color);
+}
+
+footer * {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.intro {
+  margin-block-end: 2rem;
+  font-size: 1.2em;
+}
+
+.caps {
+  text-transform: uppercase;
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}

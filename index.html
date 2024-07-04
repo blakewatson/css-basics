@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Planets of the Solar System</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <h1>Planets of the Solar System</h1>
+
+      <p class="intro"><span class="caps">Our solar system</span> is a vast and fascinating place, consisting of the Sun and the various celestial bodies that orbit it, including eight major planets. Each planet offers unique characteristics and features. In this article, we will explore the distinctive attributes of each planet, providing an overview of what makes them special (and learn a little <abbr title="Cascading style sheets">CSS</abbr> while doing it).</p>
+
+      <h2>Mercury</h2>
+      <p>
+        Mercury is the closest planet to the Sun and the smallest planet in our
+        solar system. It has a very thin atmosphere and its surface is covered
+        with craters.
+      </p>
+
+      <h2>Venus</h2>
+      <p>
+        Venus is the second planet from the Sun and is known for its thick,
+        toxic atmosphere and extreme surface temperatures. It's often called
+        Earth's "sister planet" because of their similar size and composition.
+      </p>
+
+      <h2>Earth</h2>
+      <p>
+        Earth is the third planet from the Sun and the only known planet to
+        support life. It has a diverse climate and surface, with large bodies of
+        water, mountains, and forests.
+      </p>
+      <blockquote>
+        <p>
+          The Earth is a very small stage in a vast cosmic arena. Think of the
+          rivers of blood spilled by all those generals and emperors so that in
+          glory and triumph they could become the momentary masters of a
+          fraction of a dot.
+        </p>
+        <cite>— Carl Sagan</cite>
+      </blockquote>
+
+      <h2>Mars</h2>
+      <p>
+        Mars, the fourth planet from the Sun, is often called the "Red Planet"
+        due to its reddish appearance. It has the largest volcano and canyon in
+        the solar system.
+      </p>
+
+      <h2>Jupiter</h2>
+      <p>
+        Jupiter is the fifth planet from the Sun and the largest in the solar
+        system. It has a Great Red Spot, which is a giant storm, and dozens of
+        moons.
+      </p>
+
+      <h2>Saturn</h2>
+      <p>
+        Saturn, the sixth planet from the Sun, is famous for its extensive ring
+        system. It's the second-largest planet in the solar system.
+      </p>
+
+      <figure>
+        <img src="PIA06193~large.jpg" alt="This grand mosaic consists of 126 images acquired in a tile-like fashion, covering one end of Saturn's rings to the other and the entire planet in between.">
+
+        <figcaption>
+          Source: <a href="https://images.nasa.gov/details/PIA11141">https://images.nasa.gov/details/PIA11141</a>
+        </figcaption>
+      </figure>
+
+      <h2>Uranus</h2>
+      <p>
+        Uranus is the seventh planet from the Sun and has a unique blue-green
+        color due to methane in its atmosphere. It rotates on its side, making
+        it unique among the planets.
+      </p>
+
+      <h2>Neptune</h2>
+      <p>
+        Neptune is the eighth and farthest known planet from the Sun in our
+        solar system. It's known for its deep blue color and strong winds, some
+        of the fastest in the solar system.
+      </p>
+
+      <h2>Additional Resources</h2>
+      <p>
+        For more information about the planets, visit the
+        <a href="https://solarsystem.nasa.gov/planets/overview/"
+          >NASA Solar System Exploration</a
+        >
+        website.
+      </p>
+
+      <h2>Other Major Bodies</h2>
+      <ul>
+        <li>Pluto</li>
+        <li>Ceres</li>
+        <li>Haumea</li>
+        <li>Makemake</li>
+        <li>Eris</li>
+        <li>Ganymede</li>
+        <li>Titan</li>
+        <li>Europa</li>
+      </ul>
+
+      <h2>Sample Code</h2>
+      <pre><code>function getPlanetInfo(planet) {
+    const planets = {
+        Mercury: 'The smallest planet and closest to the Sun.',
+        Venus: 'Known for its thick, toxic atmosphere.',
+        Earth: 'The only planet known to support life.',
+        Mars: 'The Red Planet with the largest volcano.',
+        Jupiter: 'The largest planet with a Great Red Spot.',
+        Saturn: 'Famous for its ring system.',
+        Uranus: 'Unique for its sideways rotation.',
+        Neptune: 'Known for its deep blue color and strong winds.'
+    };
+    return planets[planet] || 'Planet not found';
+}</code></pre>
+    </main>
+
+    <footer>
+      <p>
+        A demo website for learning CSS. Part of <a href="https://htmlforpeople.com/">HTML for People</a> by <a href="https://blakewatson.com/">Blake Watson</a>.
+      </p>
+  </body>
+</html>
